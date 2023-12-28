@@ -308,7 +308,7 @@ form button{
         width: 105%;
     }
     main{
-        width: 110%;
+        width: 100%;
     }
     .parte1 h1{
         position: absolute;
@@ -316,7 +316,7 @@ form button{
     }
     body{
         overflow-x: hidden;
-        width: 125%;
+        width: 105%;
     }
     .parte2{
         height: 600px;
