@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>AWM Seguros</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+  <main>
+    <nav>
+      <div class="menu-icon" id="menu-icon"><i class='bx bx-menu'></i></div>
+      <ul class="nav-link" id="nav-link">
+        <li>Home</li>
+        <li>Serviços</li>
+        <li>Sobre nos</li>
+        <li> Contato </li>
+      </ul>
+    </nav>
+    <div class="containerHome">
+      <div class="parte1">
+        <img src="https://capitalsocial.cnt.br/wp-content/uploads/2021/11/a-importancia-da-gestao-empresarial-para-as-pequenas-e-medias-empresas-20210903165138.jpg.jpg" alt="">  
+        <h1>Soluções em Seguros para Bens e Pessoas.</h1>
+        <a href=""></a>
+      </div>
+    </div>
+    <script>
+      document.getElementById('menu-icon').addEventListener('click',function(){
+        var navLinks = document.getElementById('nav-link');
+        if(navLinks.style.display === 'flex'){
+          navLinks.style.display = 'none';
+        }else{
+          navLinks.style.display='flex';
+        }
+      });
+    </script>
+    <div class="container">
+
+      <div class="parte2">
+        <h1>Serviços</h1>
+        <div class="fundo">
+          <img id="carro" src="scr/carro_gol.png" alt="">
+        </div>
+        <div class="descricaoCarro">
+          <h1>Seguro para veiculos</h1>
+          <p> Mantenha seu veículo protegido contra o inesperado. Com nosso seguro,
+            você tem a garantia de rápida reposição em caso de roubo ou furto.</p>
+          <a href="">Saiba Mais</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="parte3">
+        <div class="descricaoImovel">
+          <h1>Seguro para Imóveis</h1>
+          <p>Um seguro para o seu imóvel oferece proteção contra eventos naturais como incêndios, inundações,
+            terremotos e tempestades. Isso garante que, em caso de danos causados por esses eventos,
+            você tenha assistência financeira para reparos ou reconstrução.</p>
+          <a href="">Saiba Mais</a>
+
+        </div>
+        <div class="imovel">
+          <img class="casa" src="scr/imovel.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="parte4">
+        <div class="descricao4">
+          <h1>A Segurança que você Procurar</h1>
+        </div>
+        <div class="descricao4_1">
+          <p>
+            Protegendo o seu futuro com seguros de vida:
+            a segurança que você procura para garantir o bem-estar financeiro daqueles que mais ama,
+            oferecendo tranquilidade e suporte em momentos cruciais da vida."
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="parte5">
+        <div class="fundo_familia">
+          <img src="scr/familia.png" alt="">
+        </div>
+        <div class="descricao_familia">
+          <h1>Seguro para min</h1>
+          <p>Garanta a tranquilidade de seus entes queridos e proteja o legado que você construiu ao longo da vida com nosso seguro de vida abrangente. 
+            Nosso compromisso é oferecer uma cobertura sólida que vai além das expectativas,
+            proporcionando segurança financeira em momentos críticos.</p>
+          <div>
+            <a id="saibaMais" href="">Saiba Mais</a>
+          </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="parte6">
+        <h1>Por Que Escolher Nossos Serviços?</h1>
+        <div class="onnet" >
+
+          <div class="atendimento">
+            <div class="fundo_icons">
+              <i class='bx bxs-phone-incoming'></i>
+            </div>
+            <p>Atendimento Agil e diferenciado via e-mail ou telefone</p>
+          </div>
+
+          <div class="atendimento" >
+            <div class="fundo_icons">
+              <i class='bx bx-world'></i>
+            </div>
+            <p>Corretora online com cobertura de atendimento a todo brasil</p>
+          </div>
+
+          <div class="atendimento">
+            <div class="fundo_icons">
+              <i class='bx bxs-user-voice'></i>
+            </div>
+            <p>Corretores experiente para lhe ajudar na contratação do seu seguro.</p>
+          </div>
+
+          <div class="atendimento">
+            <div class="fundo_icons">
+              <i class='bx bxs-bar-chart-square'></i>
+            </div>
+            <p>Parceria com apenas as melhores seguradoras do mercado </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="parte7">
+        <h1>Contato</h1>
+        <div class="formulario">        
+          <form id="insuranceForm">
+            <label for="fullName">Nome Completo:</label>
+            <br>
+            <input type="text" id="fullName" placeholder="Nome Completo" name="fullName" required>
+            <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" placeholder="E-mail" name="email" required>
+            <br>
+            <label for="phone">Telefone:</label>
+            <br>
+            <input type="tel" id="phone" placeholder="Telefone" name="phone" required>
+            <br>
+            <label for="insuranceType">Escolha o tipo de seguro:</label>
+            <br>
+            <select id="insuranceType" name="insuranceType" required>
+                <option value="seguro_auto">Seguro Auto</option>
+                <option value="seguro_saude">Seguro Saúde</option>
+                <option value="seguro_residencial">Seguro Residencial</option>
+            </select>
+            <br>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>  
+</body>
+</html>

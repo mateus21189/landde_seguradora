@@ -1,0 +1,409 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+  
+nav{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(69, 69, 69);
+    height: 70px;
+}
+ul{
+    display: flex;
+    justify-content: end;
+}
+li{
+    list-style-type: none;
+    margin: -10px 18px;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-top: 12px;
+}
+li:hover{
+    background-color: #14204E;
+}
+.parte2 h1{
+    text-align: center;
+    text-decoration: 2px underline #14204E;
+}
+.menu-icon{
+    display: none;
+}
+.containerHome{
+    display: block;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.parte1 img{
+    width: 100%;
+}
+.parte1 {    
+    width: 100%;
+    text-align: center;
+    height: 650px;
+    margin-top: 0px;
+    display: flex;
+}
+.parte1 h1{
+    text-align: left;
+    width: 350px;
+    border-radius: 5px;
+    font-size: 65px;
+    background-color: rgba(217, 217, 217, 0.559);
+    position: absolute;
+    left: 150px;
+    top: 100px;
+    color: #14204E;
+    border-left: 4px solid #14204E;
+    padding-left: 18px;
+}
+.parte2{
+    width: 941px;
+    height: 350px;
+    background-color: rgb(69, 69, 69);
+
+}
+.fundo{
+    background-color:#14204E;
+    width: 250px;
+    height: 180px;
+    position: relative;
+    margin-top: 70px;
+    margin-left: 80px;
+    border-radius: 15px;
+}
+
+#carro{
+    position: absolute;
+    width: 310px;
+    z-index: 1;
+    bottom: -10px;
+    left: 20px;
+}
+.descricaoCarro, .fundo{
+    float: left;
+}
+.descricaoCarro{
+    width: 480px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.descricaoCarro h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: 3px underline #14204E;
+}
+.descricaoCarro p{
+    padding-bottom: 30px;
+}
+.descricaoCarro a{
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    margin: 0px 140px;
+    background-color: #14204E;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+/*---------------------------------------*/
+.parte3{
+    width: 941px;
+    height: 250px;
+    background-color: rgb(69, 69, 69);
+}
+
+.imovel,.descricaoImovel{
+    float: left;
+}
+.imovel{
+    background-color:#14204E;
+    width: 250px;
+    height: 200px;
+    position: relative;
+    border-radius: 15px;
+    margin-left: 210px;    
+}
+.casa{
+    width: 310px;
+    height: 200px;
+    position: absolute;
+    left: -100px;
+}
+
+.descricaoImovel h1{    
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: 3px underline #14204E;
+}
+.descricaoImovel p{
+    width: 400px;
+    text-align: center;
+    margin-left: 30px;
+
+}
+.descricaoImovel a{
+    display: inline-block;
+    margin: 0px 150px;
+    width: 40%;
+    text-align: center;
+    background-color: #14204E;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.parte4{
+    background-color: rgb(69, 69, 69);
+    border: 2px solid azure;
+    border-radius: 15px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+.descricao4{
+    border-right: 1px solid #000000;
+}
+.descricao4 h1{
+    color: rgb(255, 255, 255);
+    padding: 20px;    
+}
+.descricao4, .descricao4_1{
+    float: left;
+}
+.descricao4_1{
+    width: 390px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 18px;
+}
+.parte5{
+    background-color: rgb(69, 69, 69);
+    width: 941px;
+    height: 350px;
+}
+.fundo_familia{
+    background-color:#14204E;
+    width: 280px;
+    height: 220px;
+    position: relative;
+    border-radius: 15px;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+.fundo_familia img{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 70px;
+}
+.descricao_familia h1{
+    color: rgb(255, 255, 255);
+    margin-left: 110px;
+    text-decoration: 3px underline #14204E;
+}
+.descricao_familia p{
+    width: 400px;
+    margin-left: 140px;
+
+}
+.fundo_familia, .descricao_familia{
+    float: left;
+}
+
+#saibaMais{
+    display: inline-block;
+    text-align: center;
+    background-color: #08164d;
+    color: rgb(255, 255, 255);
+    width: 40%;
+    border-radius: 5px;
+    margin: 20px 150px;
+    text-decoration: none;
+
+}
+
+.parte6{
+    background-color: rgb(69, 69, 69);
+    width: 941px;
+    height: 290px;
+}
+.parte6 h1{
+    text-align: center;
+    text-decoration: 2px underline #14204E;
+}
+.onnet{
+    display: flex;
+    justify-content: center;
+}
+.atendimento{
+    width: 150px;
+    height: 150px;
+    margin: 25px;
+}
+.fundo_icons{
+    display: flex;
+    justify-content: center;
+}
+.fundo_icons i{
+    color: #14204E;
+    font-size: 60px;
+    background-color: azure;
+    border-radius: 50px;
+}
+.atendimento p{
+    text-align: center;
+}
+.parte7{
+    background-color: rgb(69, 69, 69);
+    width: 941px;
+    height: 400px;    
+}
+.parte7 h1{
+    text-align: center;
+    text-decoration: 2px underline #14204E;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+}
+#fullName,#email,#phone{
+    outline: none;
+    border-radius: 15px;
+    background-color: transparent;
+    border-top: 7px black;
+    width: 300px;
+    color: azure;
+}
+form{
+    background-color: #14204E;
+    padding: 25px;
+    border-radius: 15px;
+}
+form label{
+    color: azure;
+}
+form button{
+    background-color: rgb(45, 45, 45);
+    margin-left: 100px;
+    margin-top: 25px;
+    width: 100px;
+    height: 40px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+@media only screen and (max-width: 600px) {
+    .containerHome{
+        width: 100%;
+    }
+    .parte1 img{
+        width: 105%;
+    }
+    .container{
+        width: 105%;
+    }
+    main{
+        width: 110%;
+    }
+    .parte1 h1{
+        position: absolute;
+        left: 50px;
+    }
+    body{
+        overflow-x: hidden;
+        width: 125%;
+    }
+    .parte2{
+        height: 600px;
+        width: 110%;
+    }
+    .parte3{
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .imovel{
+        margin-top: 25px;
+    }
+    .descricao4 h1{
+        font-size: 30px;
+    }
+    .descricao4_1 p{
+        font-size: 16px;
+    }
+    .parte5{
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .descricaoCarro p{
+        width: 380px;
+        text-align: center;
+        margin: 0px 35px;
+    }
+    .descricaoCarro {
+        margin-left: 28px;
+    }
+    .descricaoImovel p{
+        text-align: center;
+        margin: 5px 65px;
+    }
+    .descricao4_1 {
+        width: 390px;
+    }
+    .descricao_familia h1{
+        text-align: center;
+        width: 300px;
+    }
+    .descricao_familia{
+        margin-right: 38px;
+    }
+    .descricao_familia p{
+        width: 399px;
+        text-align: center;
+        margin: 0px 65px;
+    }
+    .parte6{
+        height: 500px;
+    }
+    .onnet{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .menu-icon{
+        display: block;
+        position: absolute;
+        left: 450px;
+        font-size: 55px;
+        cursor: pointer;
+        color: #14204E;
+    }
+    nav{
+        position: absolute;
+
+        width: 142%;
+    }
+    ul{
+        display: none;
+        flex-direction: column;
+        margin-top: 70px;
+    }
+    li{
+        margin-top: 10px;
+        z-index: 1;
+        background-color: rgb(69, 69, 69);
+        border-bottom: 4px solid #14204E;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    
+
+}
